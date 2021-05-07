@@ -15,12 +15,14 @@ import com.aliyuncs.profile.IClientProfile;
 public class SMSUtils {
     public static final String VALIDATE_CODE = "";//发送短信验证码  短信模板
 //    public static final String ORDER_NOTICE = "";//体检预约成功通知
-    /**
-     * 发送短信
-     * @param phoneNumbers
-     * @param param
-     * @throws ClientException
-     */
+  
+  /**
+     * @program: sample
+     * @description:  发送短信
+     * @packagename: com.aliyun.sample
+     * @author: yanghongrong
+     * @date: 2021-05-07 17:58
+  **/
     public static String  sendShortMessage(String templateCode, String phoneNumbers, String param) throws ClientException{
         // 设置超时时间-可自行调整
 //        System.setProperty("sun.net.client.defaultConnectTimeout", "10000");
